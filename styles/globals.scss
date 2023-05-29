@@ -1,0 +1,37 @@
+@use 'base';
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	transition: 0.3s;
+	color: base.$color-main;
+}
+
+html {
+	scroll-behavior: smooth !important;
+}
+
+// // Fonts
+// @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+// p {
+// 	font-family: 'PT Sans', sans-serif;
+// }
+
+// h1,
+// h2,
+// h3,
+// h4 {
+// 	font-family: 'Open Sans', sans-serif;
+// 	font-weight: 700;
+// }
+
+.containerCenter {
+	width: 1284px;
+	max-width: 90%;
+	margin: 0 auto;
+}

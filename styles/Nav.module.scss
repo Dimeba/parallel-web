@@ -1,0 +1,70 @@
+@use 'base';
+
+%header {
+	width: 100%;
+	top: 0;
+	z-index: 10;
+}
+
+.headerTop {
+	@extend %header;
+	position: absolute;
+}
+
+.headerScroll {
+	@extend %header;
+	position: fixed;
+	background-color: white;
+	// box-shadow: 0px 2px 10px rgba($color: base.$color-main, $alpha: 0.2);
+	transition: all 0.2s ease-in-out;
+
+	.nav {
+		padding: 1rem 0 1rem 0;
+	}
+}
+
+.nav {
+	width: 1284px;
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 1.8rem 0 1.8rem 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	a {
+		text-decoration: none;
+	}
+
+	ul {
+		list-style: none;
+		display: flex;
+		gap: 2.5rem;
+
+		li {
+			font-size: 0.875rem;
+			position: relative;
+		}
+
+		li:hover {
+			color: base.$color-highlight;
+		}
+
+		li:after {
+			content: '';
+			position: absolute;
+			width: 0;
+			height: 2px;
+			right: 0;
+			display: block;
+			background: base.$color-highlight;
+			transition: width 0.2s ease;
+			-webkit-transition: width 0.2s ease;
+		}
+
+		li:hover:after {
+			width: 100%;
+			left: 0;
+		}
+	}
+}
