@@ -14,21 +14,22 @@ html {
 	scroll-behavior: smooth !important;
 }
 
-// // Fonts
-// @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
-// p {
-// 	font-family: 'PT Sans', sans-serif;
-// }
+p {
+	font-family: 'PT Sans', sans-serif;
+	line-height: 1.75rem;
+}
 
-// h1,
-// h2,
-// h3,
-// h4 {
-// 	font-family: 'Open Sans', sans-serif;
-// 	font-weight: 700;
-// }
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
 
 .containerCenter {
 	width: 1284px;

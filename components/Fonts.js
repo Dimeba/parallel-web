@@ -6,6 +6,7 @@ export const ptSans = PT_Sans({
 	weight: ['400', '700'],
 	display: 'swap'
 })
+
 export const openSans = Open_Sans({
 	subsets: ['latin'],
 	weight: ['700'],

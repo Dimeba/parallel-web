@@ -3,6 +3,9 @@ import Head from 'next/head'
 // components
 import Layout from '@/components/Layout'
 
+// sections
+import Hero from '@/components/Hero'
+
 export default function Home() {
 	return (
 		<>
@@ -14,12 +17,7 @@ export default function Home() {
 			</Head>
 
 			<Layout>
-				<div
-					className='containerCenter'
-					style={{ 'height': '3000px', 'marginTop': '150px' }}
-				>
-					<p>Parallel CRE</p>
-				</div>
+				<Hero />
 			</Layout>
 		</>
 	)

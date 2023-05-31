@@ -43,17 +43,14 @@ const Header = () => {
 				className={isIntersecting ? styles.headerTop : styles.headerScroll}
 			>
 				<div className={styles.nav}>
-					<Link href='#' scroll={false} passHref>
-						<div className={styles.logo}>
-							<Image
-								src='logo.svg'
-								// width={166}
-								// height={50}
-								fill={true}
-								alt='Parallel Logo'
-								priority={true}
-							/>
-						</div>
+					<Link href='/#hero' scroll={false} passHref>
+						<Image
+							src='logo.svg'
+							width={166}
+							height={50}
+							alt='Parallel Logo'
+							priority={true}
+						/>
 					</Link>
 
 					<Hamburger toggleMenu={toggleMenu} menuClass={menuClass} />
