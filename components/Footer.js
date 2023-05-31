@@ -9,7 +9,7 @@ const Footer = () => {
 		<footer id={styles.footer} className='containerCenter'>
 			<div className={styles.contactInfo}>
 				<p>
-					inforallelcre.com
+					info@rallelcre.com
 					<br /> (917) 626-3406
 					<br />
 					<br /> 48 West 37th Street, 18th Floor

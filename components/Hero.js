@@ -11,7 +11,9 @@ const Hero = () => {
 				We are <span>aligned with our clients</span> every step of the way
 			</h1>
 
-			<button className='button-blue'>Get In Touch</button>
+			<Link href='mailto:info@rallelcre.com'>
+				<button className='button-blue'>Get In Touch</button>
+			</Link>
 
 			<p>
 				Parallel CRE is an in-house commercial real estate debt advisory firm,
@@ -24,7 +26,7 @@ const Hero = () => {
 					src='arrow-down.svg'
 					width={60}
 					height={60}
-					alt='Parallel Logo'
+					alt='Arrow button to scroll to the next section'
 					priority={true}
 				/>
 			</Link>
