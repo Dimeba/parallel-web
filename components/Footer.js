@@ -3,7 +3,6 @@ import Link from 'next/link'
 
 // styles
 import styles from '@/styles/Footer.module.scss'
-import { ptSansBold } from './Fonts'
 
 const Footer = () => {
 	return (

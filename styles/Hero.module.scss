@@ -1,0 +1,50 @@
+@use 'base';
+
+.hero {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2.5rem;
+
+	h1 {
+		text-align: center;
+
+		span {
+			color: base.$color-highlight;
+		}
+	}
+
+	p {
+		width: 40%;
+		text-align: center;
+		margin-top: 6rem;
+
+		span {
+			text-transform: uppercase;
+			font-weight: 700;
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.hero {
+		h1 {
+			font-size: 3.2rem;
+		}
+
+		p {
+			width: 100%;
+			margin-top: 2rem;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.hero {
+		h1 {
+			font-size: 2rem;
+		}
+	}
+}

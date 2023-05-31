@@ -8,6 +8,7 @@
 	padding: 0;
 	transition: 0.3s;
 	color: base.$color-main;
+	z-index: 2;
 }
 
 html {
@@ -31,10 +32,30 @@ h4 {
 	font-weight: 700;
 }
 
+h1 {
+	font-size: 4.625rem;
+}
+
 .containerCenter {
 	width: 1284px;
 	max-width: 90%;
 	margin: 0 auto;
+}
+
+// buttons
+
+%button {
+	padding: 1rem 2rem;
+	font-weight: 700;
+	border-radius: 0.3rem;
+	border: none;
+	width: fit-content;
+}
+
+.button-blue {
+	@extend %button;
+	background-color: base.$color-highlight;
+	color: white;
 }
 
 @media screen and (max-width: 768px) {
