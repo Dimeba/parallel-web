@@ -35,3 +35,9 @@ html {
 	max-width: 90%;
 	margin: 0 auto;
 }
+
+@media screen and (max-width: 768px) {
+	.containerCenter {
+		width: 80%;
+	}
+}
