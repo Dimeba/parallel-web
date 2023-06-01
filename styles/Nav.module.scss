@@ -20,7 +20,6 @@
 
 	.nav {
 		padding: 1rem 0 1rem 0;
-		color: base.$color-highlight;
 	}
 
 	.menuBtnBurger,
@@ -186,6 +185,13 @@
 
 @media screen and (max-width: 768px) {
 	.nav {
-		max-width: 80%;
+		max-width: 100%;
+		padding: base.$mobile-margin;
+	}
+
+	.headerScroll {
+		.nav {
+			padding: base.$mobile-margin;
+		}
 	}
 }

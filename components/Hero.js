@@ -21,7 +21,7 @@ const Hero = () => {
 				<span>COMPETITIVE FINANCING</span> for the <span>LOWEST COST</span>
 			</p>
 
-			<Link href='#' scroll={false} passHref>
+			<Link href='/#about' scroll={false} passHref>
 				<Image
 					src='arrow-down.svg'
 					width={60}

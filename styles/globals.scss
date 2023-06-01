@@ -8,7 +8,6 @@
 	padding: 0;
 	transition: 0.3s;
 	color: base.$color-main;
-	z-index: 2;
 }
 
 html {
@@ -21,12 +20,12 @@ html {
 	width: 100%;
 	top: 0;
 	left: 0;
-	z-index: 0;
+	z-index: -2;
 }
 
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 p {
 	font-family: 'PT Sans', sans-serif;
@@ -43,6 +42,20 @@ h4 {
 
 h1 {
 	font-size: 4.625rem;
+}
+h2 {
+	font-size: 3rem;
+	margin-bottom: 3.8rem;
+}
+h3 {
+	font-size: 1.5rem;
+	margin-bottom: 1.25rem;
+}
+
+h5 {
+	font-size: 1rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 }
 
 .containerCenter {
@@ -76,6 +89,11 @@ h1 {
 
 @media screen and (max-width: 768px) {
 	.containerCenter {
-		width: 80%;
+		max-width: 100%;
+		padding: 0 1.875rem;
+	}
+
+	h2 {
+		font-size: 2rem;
 	}
 }

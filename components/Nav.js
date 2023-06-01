@@ -56,7 +56,7 @@ const Header = () => {
 					<Hamburger toggleMenu={toggleMenu} menuClass={menuClass} />
 
 					<ul className={hiddenMenuClass}>
-						<Link href='#' scroll={false} passHref>
+						<Link href='/#about' scroll={false} passHref>
 							<li onClick={() => closeMenu()}>About Us</li>
 						</Link>
 						<Link href='#' scroll={false} passHref>
