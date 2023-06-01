@@ -30,7 +30,7 @@
 // Comparison Table
 
 .table {
-	width: 45%;
+	width: 47%;
 
 	ul {
 		list-style: none;
@@ -66,9 +66,34 @@
 	justify-content: center;
 }
 
+// Key Info (highlights)
+
+.keyInfo {
+	width: 47%;
+	background-color: base.$color-main;
+	background-image: url(../public/symbol-outline.svg);
+	background-size: cover;
+	padding: base.$desktop-margin calc(2 * base.$desktop-margin);
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: base.$desktop-margin;
+	border-radius: 20px;
+
+	* {
+		color: white !important;
+	}
+
+	h2 {
+		font-size: 3rem;
+		margin: 0;
+	}
+}
+
 @media screen and (max-width: 1024px) {
 	.highlights {
 		flex-direction: column;
+		gap: base.$desktop-margin;
 	}
 
 	.table {
@@ -86,6 +111,15 @@
 	.tableHead,
 	.ticks {
 		width: 60%;
+	}
+
+	.keyInfo {
+		width: 100%;
+		padding: base.$desktop-margin;
+
+		* {
+			text-align: center;
+		}
 	}
 }
 

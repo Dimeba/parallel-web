@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
 				<Image
 					src='symbol-outline.svg'
 					fill={true}
-					style={{ objectFit: 'cover', objectPosition: 'top', opacity: 0.5 }}
+					style={{ objectFit: 'cover', objectPosition: 'top' }}
 					alt='background image'
 				/>
 			</div>

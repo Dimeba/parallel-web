@@ -16,7 +16,7 @@ const Footer = () => {
 					<br /> New York, NY 10018
 				</p>
 
-				<Link href='/#hero' scroll={false} passHref>
+				<Link href='/' scroll={false} passHref>
 					<Image
 						src='symbol.svg'
 						width={80}
@@ -28,10 +28,10 @@ const Footer = () => {
 			</div>
 			<div className={styles.links}>
 				<ul className={styles.menu}>
-					<Link href='#' scroll={false} passHref>
+					<Link href='/#about' scroll={false} passHref>
 						<li>About Us</li>
 					</Link>
-					<Link href='#' scroll={false} passHref>
+					<Link href='/#team' scroll={false} passHref>
 						<li>Meet Our Team</li>
 					</Link>
 				</ul>

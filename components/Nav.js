@@ -43,7 +43,7 @@ const Header = () => {
 				className={isIntersecting ? styles.headerTop : styles.headerScroll}
 			>
 				<div className={styles.nav}>
-					<Link href='/#hero' scroll={false} passHref>
+					<Link href='/' scroll={false} passHref>
 						<Image
 							src='logo.svg'
 							width={166}
@@ -59,7 +59,7 @@ const Header = () => {
 						<Link href='/#about' scroll={false} passHref>
 							<li onClick={() => closeMenu()}>About Us</li>
 						</Link>
-						<Link href='#' scroll={false} passHref>
+						<Link href='/#team' scroll={false} passHref>
 							<li onClick={() => closeMenu()}>Meet Our Team</li>
 						</Link>
 					</ul>

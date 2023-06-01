@@ -52,6 +52,10 @@ h3 {
 	margin-bottom: 1.25rem;
 }
 
+h4 {
+	font-size: 1.25rem;
+}
+
 h5 {
 	font-size: 1rem;
 	font-family: 'Open Sans', sans-serif;
@@ -90,7 +94,7 @@ h5 {
 @media screen and (max-width: 768px) {
 	.containerCenter {
 		max-width: 100%;
-		padding: 0 1.875rem;
+		padding: 0 base.$mobile-margin;
 	}
 
 	h2 {

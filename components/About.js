@@ -1,6 +1,3 @@
-import Image from 'next/image'
-import Link from 'next/link'
-
 // components
 import ComparisonTable from './ComparisonTable'
 
@@ -49,7 +46,24 @@ const About = () => {
 
 			<div className={styles.highlights}>
 				<ComparisonTable />
-				<div>Placeholder</div>
+				<div className={styles.keyInfo}>
+					<div>
+						<h2>$5B+</h2>
+						<p>Financing Closed</p>
+					</div>
+					<div>
+						<h2>$5B+</h2>
+						<p>Financing Closed</p>
+					</div>
+					<div>
+						<h2>$5B+</h2>
+						<p>Financing Closed</p>
+					</div>
+					<div>
+						<h2>$5B+</h2>
+						<p>Financing Closed</p>
+					</div>
+				</div>
 			</div>
 		</section>
 	)
