@@ -12,12 +12,13 @@ const Layout = ({ children }) => {
 		<main className={ptSans.className}>
 			<div className='background-symbol'>
 				<Image
-					src='symbol-outline.svg'
+					src='symbol-background.svg'
 					fill={true}
-					style={{ objectFit: 'cover', objectPosition: 'top' }}
+					style={{ objectFit: 'cover', objectPosition: 'top', opacity: 0.7 }}
 					alt='background image'
 				/>
 			</div>
+			<div className='blue-background'></div>
 			<Nav />
 			{children}
 			<Footer />

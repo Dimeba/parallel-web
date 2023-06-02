@@ -1,7 +1,8 @@
 @use 'base';
 
 .hero {
-	height: 100vh;
+	padding-top: calc(4 * base.$desktop-margin);
+	padding-bottom: calc(4 * base.$desktop-margin);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -42,6 +43,9 @@
 
 @media screen and (max-width: 768px) {
 	.hero {
+		padding-top: calc(2 * base.$desktop-margin);
+		padding-bottom: calc(2 * base.$desktop-margin);
+
 		h1 {
 			margin-top: 6rem;
 			font-size: 2rem;

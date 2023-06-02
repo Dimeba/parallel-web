@@ -52,16 +52,16 @@ const About = () => {
 						<p>Financing Closed</p>
 					</div>
 					<div>
-						<h2>$5B+</h2>
-						<p>Financing Closed</p>
+						<h2>20+</h2>
+						<p>Years of experience</p>
 					</div>
 					<div>
 						<h2>$5B+</h2>
 						<p>Financing Closed</p>
 					</div>
 					<div>
-						<h2>$5B+</h2>
-						<p>Financing Closed</p>
+						<h2>20+</h2>
+						<p>Years of experience</p>
 					</div>
 				</div>
 			</div>
