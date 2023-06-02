@@ -37,12 +37,12 @@ const Footer = () => {
 				</ul>
 
 				<ul>
-					<Link href='#' scroll={false} passHref>
+					{/* <Link href='#' scroll={false} passHref>
 						<li>Privacy Policy</li>
 					</Link>
 					<Link href='#' scroll={false} passHref>
 						<li>Terms of Use</li>
-					</Link>
+					</Link> */}
 					<li>Parallel CRE © Copyright 2023</li>
 				</ul>
 			</div>
