@@ -11,9 +11,11 @@ const TeamMember = props => {
 				<Image
 					src={props.photo}
 					fill={true}
+					sizes='17.25rem'
 					style={{ objectFit: 'contain' }}
 					alt='Team member photo'
 					loading='lazy'
+					priority={false}
 				/>
 			</div>
 			<div>
@@ -23,7 +25,7 @@ const TeamMember = props => {
 				<p>Tel : {props.tel}</p>
 				<p>{props.mail}</p>
 				<br />
-				<Link href={`/${props.id}`}>
+				<Link href={`/${props.name.toLowerCase()}`}>
 					<p>Read Bio</p>
 				</Link>
 			</div>

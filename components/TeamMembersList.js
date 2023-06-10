@@ -1,6 +1,5 @@
 export const teamMembersList = [
 	{
-		id: 'richard-sutton',
 		name: 'Richard Sutton',
 		title: 'Principal',
 		tel: '(917) 626-3406',
@@ -10,7 +9,6 @@ export const teamMembersList = [
 		photo: '/richard.jpg'
 	}
 	// {
-	//  id: 'akiva-gottlieb',
 	//  name: 'Akiva Gottlieb',
 	// 	title: 'Vice President',
 	// 	tel: '(201) 694-4668',

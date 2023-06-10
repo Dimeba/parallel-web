@@ -16,8 +16,7 @@ const Team = () => {
 			<div className={styles.members}>
 				{teamMembersList.map((member, index) => (
 					<TeamMember
-						key={member.id}
-						id={member.id}
+						key={index}
 						name={member.name}
 						title={member.title}
 						tel={member.tel}

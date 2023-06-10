@@ -7,11 +7,13 @@ import styles from '@/styles/Team.module.scss'
 
 const TeamMember = () => {
 	const router = useRouter()
-	const { id } = router.query
+	const { bio } = router.query
 
-	const member = teamMembersList.find(member => member.id === id)
+	const member = teamMembersList.find(
+		member => member.name.toLowerCase() === bio
+	)
 
-	if (!id) {
+	if (!bio) {
 		return <div>Loading...</div>
 	}
 
@@ -28,9 +30,11 @@ const TeamMember = () => {
 				<Image
 					src={member.photo}
 					fill={true}
+					sizes='17.25rem'
 					style={{ objectFit: 'contain' }}
 					alt='Team member photo'
 					loading='lazy'
+					priority={false}
 				/>
 			</div>
 			<div className={styles.bio}>
