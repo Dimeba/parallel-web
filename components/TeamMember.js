@@ -23,7 +23,9 @@ const TeamMember = props => {
 				<p>Tel : {props.tel}</p>
 				<p>{props.mail}</p>
 				<br />
-				{/* <p>Read Bio</p> */}
+				<Link href={`/${props.id}`}>
+					<p>Read Bio</p>
+				</Link>
 			</div>
 		</div>
 	)
