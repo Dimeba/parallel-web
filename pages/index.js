@@ -7,6 +7,7 @@ import Layout from '@/components/Layout'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Team from '@/components/Team'
+import Transactions from '@/components/Transactions'
 
 export default function Home() {
 	return (
@@ -27,7 +28,8 @@ export default function Home() {
 
 			<Hero />
 			<About />
-			<Team />
+			{/* <Transactions /> */}
+			{/* <Team /> */}
 		</>
 	)
 }

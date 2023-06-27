@@ -76,6 +76,7 @@
 	padding: base.$desktop-margin calc(2 * base.$desktop-margin);
 	display: flex;
 	justify-content: space-evenly;
+	align-items: center;
 	flex-wrap: wrap;
 	gap: base.$desktop-margin;
 	border-radius: 20px;

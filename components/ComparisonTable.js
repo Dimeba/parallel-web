@@ -74,7 +74,7 @@ const ComparisonTable = () => {
 					tick2={false}
 					tick3={true}
 				/>
-				<Row title='No commissions' tick1={true} tick2={false} tick3={true} />
+				{/* <Row title='No commissions' tick1={true} tick2={false} tick3={true} /> */}
 			</ul>
 		</div>
 	)

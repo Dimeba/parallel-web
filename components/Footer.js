@@ -9,10 +9,10 @@ const Footer = () => {
 		<footer id={styles.footer} className='containerCenter'>
 			<div className={styles.contactInfo}>
 				<p>
-					info@rallelcre.com
+					info@parallelcre.com
 					<br /> (917) 626-3406
 					<br />
-					<br /> 48 West 37th Street, 18th Floor
+					<br /> 48 West 37th Street
 					<br /> New York, NY 10018
 				</p>
 
@@ -31,9 +31,9 @@ const Footer = () => {
 					<Link href='/#about' scroll={false} passHref>
 						<li>About Us</li>
 					</Link>
-					<Link href='/#team' scroll={false} passHref>
+					{/* <Link href='/#team' scroll={false} passHref>
 						<li>Meet Our Team</li>
-					</Link>
+					</Link> */}
 				</ul>
 
 				<ul>

@@ -37,10 +37,14 @@ const About = () => {
 					</h3>
 					<p>
 						With our powerful team and technology platform, we can offer
+						significantly reduced advisory costs.
+					</p>
+					{/* <p>
+						With our powerful team and technology platform, we can offer
 						significantly reduced advisory costs. Unlike brokers who charge a
 						percentage-based commission on closed deals, we charge a flat fee to
 						manage your financing.
-					</p>
+					</p> */}
 				</div>
 			</div>
 
@@ -55,14 +59,14 @@ const About = () => {
 						<h2>20+</h2>
 						<p>Years of experience</p>
 					</div>
-					<div>
+					{/* <div>
 						<h2>$5B+</h2>
 						<p>Financing Closed</p>
 					</div>
 					<div>
 						<h2>20+</h2>
 						<p>Years of experience</p>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</section>
