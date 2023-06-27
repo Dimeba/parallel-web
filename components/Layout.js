@@ -19,9 +19,9 @@ const Layout = ({ children }) => {
 				/>
 			</div>
 			<div className='blue-background'></div>
-			<Nav />
+			{/* <Nav /> */}
 			{children}
-			<Footer />
+			{/* <Footer /> */}
 		</main>
 	)
 }

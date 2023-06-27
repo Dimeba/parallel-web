@@ -59,15 +59,15 @@ const Header = () => {
 						<Link href='/#about' scroll={false} passHref>
 							<li onClick={() => closeMenu()}>About Us</li>
 						</Link>
-						{/* <Link href='/#transactions' scroll={false} passHref>
+						<Link href='/#transactions' scroll={false} passHref>
 							<li onClick={() => closeMenu()}>Featured Transactions</li>
-						</Link> */}
-						{/* <Link href='/#team' scroll={false} passHref>
+						</Link>
+						<Link href='/#team' scroll={false} passHref>
 							<li onClick={() => closeMenu()}>Meet Our Team</li>
-						</Link> */}
-						{/* <Link href='/#team' scroll={false} passHref>
+						</Link>
+						<Link href='/#team' scroll={false} passHref>
 							<li onClick={() => closeMenu()}>Principal Bio</li>
-						</Link> */}
+						</Link>
 					</ul>
 				</div>
 			</header>

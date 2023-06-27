@@ -8,6 +8,7 @@ import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Team from '@/components/Team'
 import Transactions from '@/components/Transactions'
+import ComingSoon from '@/components/ComingSoon.'
 
 export default function Home() {
 	return (
@@ -26,10 +27,11 @@ export default function Home() {
 				<link rel='icon' href='/favicon.svg' />
 			</Head>
 
-			<Hero />
+			<ComingSoon />
+			{/* <Hero />
 			<About />
-			{/* <Transactions /> */}
-			{/* <Team /> */}
+			<Transactions />
+			<Team /> */}
 		</>
 	)
 }
